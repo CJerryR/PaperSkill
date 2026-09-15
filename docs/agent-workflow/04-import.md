@@ -29,7 +29,7 @@
 预计发布地址：
 https://reducttech.github.io/PaperSkill/papers/<paper-name>/<version>/
 
-这是预计发布地址，PR 合并并且 GitHub Pages 部署成功后才能访问，也可待邮件提示merged之后在网页进行自己的论文名搜索，确认最终网页。
+这是预计发布地址，该地址此时尚未上线，打开显示404属正常现象。如提交结构无误，提交5分钟内会进行自动审核合并，PR合并且GitHub Pages部署成功后才能访问，也可待邮件提示merged之后在网页进行自己的论文名搜索，确认最终网页。
 ```
 
 不得为了保存或展示该地址而修改教程项目、`paper.json`、项目 `README.md`、本地状态文件、PR 材料或 `catalog/papers.json`。
