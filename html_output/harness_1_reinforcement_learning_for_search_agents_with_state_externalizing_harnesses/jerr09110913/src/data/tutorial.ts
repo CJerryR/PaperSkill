@@ -32,28 +32,24 @@ export const tutorial: TutorialData = {
       "bvid": "BV1VJsuzZE4Z",
       "title": "AI Agent 原理｜李宏毅课程 P1（第2、8章背景）",
       "reason": "了解动作、工具与观察循环。推荐合集 P1；这是通用背景课程，并非 Harness-1 作者对本论文的讲解。",
-      "cover": "https://i0.hdslb.com/bfs/archive/b8c1c1dff121608e127f413d83a44c47917b593b.jpg",
       "views": "4449播放 · 收录时"
     },
     {
       "bvid": "BV1DjLF6xEXM",
       "title": "上下文工程基本概念｜李宏毅课程 P1（第3—5章背景）",
       "reason": "补充 Context Engineering 的基本概念，帮助理解输入组织与外部状态；不能替代 Harness-1 的具体状态定义。",
-      "cover": "https://i2.hdslb.com/bfs/archive/5379f17bbda7c7ba680fe72527554a67d9ead629.jpg",
       "views": "3.2万播放 · 收录时"
     },
     {
       "bvid": "BV1zp4y1e7iN",
       "title": "北邮《网络搜索原理》｜P21：TFIDF/BM25（第6章背景）",
       "reason": "进入合集选择 P21“第11讲 TFIDF/BM25打分算法与布尔查询初步实现”。补充词频、稀有度与长度归一化，不代表论文的实际检索参数。",
-      "cover": "https://i2.hdslb.com/bfs/archive/29cd3136fb0f179a296c515316ee37ab5959a437.jpg",
       "views": "1.9万播放 · 收录时"
     },
     {
       "bvid": "BV1s16UB7Eop",
       "title": "从强化学习入门到理解 GRPO｜第7章背景，非论文 CISPO",
       "reason": "补充强化学习与组内比较的入门知识。视频讲 GRPO；Harness-1 使用 CISPO，不可将两者视为同一个实现。",
-      "cover": "https://i1.hdslb.com/bfs/archive/59fdd72a0bd45137462592d27cd28cd97087f5f6.jpg",
       "views": "2.5万播放 · 收录时"
     }
   ],

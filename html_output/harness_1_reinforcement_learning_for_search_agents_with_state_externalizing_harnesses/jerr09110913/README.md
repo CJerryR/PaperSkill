@@ -59,3 +59,39 @@ node src/modules/model-audit.cjs
 恢复原版App.tsx与components.css，各章独立类比卡置于技术模块之前。专用样式在src/modules/module-ui.css，未改共享字体、间距和导航。奖励公式定义在tutorial.ts，InteractiveFormula复用原版Formula，并提供键盘操作和局部窄屏适配。
 
 第4章筛选、第5章核验、第6章预算、第7章奖励反馈按状态显示颜色与文字标记。压缩重复操作说明，保留任务材料、工具返回、来源和适用范围。生活／混合模块配额沿用用户正文隔离例外，不补造四个混合模块；当前第3章保留额外联动类比，自动类比卡不算主动模块。
+
+
+## 图片与外部素材来源及许可
+
+核对日期：2026-09-15。论文作者：Pengcheng Jiang、Zhiyi Shi、Kelly Hong、Xueqiang Xu、Jiashuo Sun、Jimeng Sun、Hammad Bashir、Jiawei Han。
+论文标题：*Harness-1: Reinforcement Learning for Search Agents with State-Externalizing Harnesses*。
+
+[arXiv 论文页面](https://arxiv.org/abs/2606.02373v1)的“view license”链接指向 [Creative Commons Attribution 4.0 International（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/)。下列论文图片按该许可保留作者署名、原始来源和许可链接；未发现这些图单独标注不同的第三方许可。本教程为独立教学作品，不表示论文作者认可或背书。
+
+| 本地文件（均在 `public/images/`） | 原文位置与原文件 | 修改情况 |
+|---|---|---|
+| `teaser_recall_barchart.png` | [Figure 1](https://arxiv.org/html/2606.02373v1#S0.F1) · [原文件](https://arxiv.org/html/2606.02373v1/teaser_recall_barchart.png) | 原样复制 |
+| `method_figure.png` | [Figure 2](https://arxiv.org/html/2606.02373v1#S1.F2) · [原文件](https://arxiv.org/html/2606.02373v1/method_figure.png) | 原样复制 |
+| `ood_asymmetry.svg` | [Figure 3](https://arxiv.org/html/2606.02373v1#S3.F3) · [原文件](https://arxiv.org/html/2606.02373v1/ood_asymmetry.svg) | 原样复制 |
+| `training-dynamics.svg` | [Figure 5](https://arxiv.org/html/2606.02373v1#S3.F5) · [原文件](https://arxiv.org/html/2606.02373v1/training_dynamics_combined.svg) | 仅重命名；图片内容不变。页面的焦点框是单独的界面叠层 |
+| `answer_accuracy.svg` | [Figure 6](https://arxiv.org/html/2606.02373v1#A15.F6) · [原文件](https://arxiv.org/html/2606.02373v1/answer_accuracy.svg) | 原样复制 |
+| `harness_comparison.png` | [Figure 7](https://arxiv.org/html/2606.02373v1#A16.F7) · [原文件](https://arxiv.org/html/2606.02373v1/harness_comparison.png) | 原样复制 |
+
+上述六个本地文件与原始下载文件的 SHA-256 全部一致。网页按视口缩放显示图片，不重画原图曲线或插值生成实验数据。论文表格的交互重排、中文说明和代码绘制的教学示意为本教程的改编，相关章节保留论文出处；虚构机构、文档及交互状态明确属于教学例子。
+
+### 延伸视频
+
+仅提供以下公开视频页面的外部链接，不下载、嵌入或重新分发视频文件；提交版使用代码绘制的普通链接卡片，不使用第三方视频封面，也不请求封面接口。下列名称是教程中的推荐标签，原始标题、上传者与许可信息以链接页面为准。
+
+- [AI Agent 原理背景课程](https://www.bilibili.com/video/BV1VJsuzZE4Z)
+- [上下文工程背景课程](https://www.bilibili.com/video/BV1DjLF6xEXM)
+- [网络搜索、TFIDF/BM25 背景课程](https://www.bilibili.com/video/BV1zp4y1e7iN)
+- [强化学习与 GRPO 背景讲解](https://www.bilibili.com/video/BV1s16UB7Eop)；仅作背景，论文使用 CISPO，不能混同。
+
+视频不适用上述论文的 CC BY 4.0 许可。论文案例中的 Wikipedia URL 作为原文来源引用保留，项目未打包 Wikipedia 页面或其媒体文件。
+
+### 项目界面与截图
+
+交互图形由 React、SVG、Canvas 与 CSS 代码绘制，使用系统字体；未打包第三方字体文件。React、Vite 等软件依赖由锁文件记录，遵循各自许可证，不将论文 CC BY 4.0 许可扩展到这些软件依赖。
+
+`docs/screenshots/` 为本项目实际浏览器截图，由本次提交准备过程生成，展示本教程界面及上述已注明来源的内容。
