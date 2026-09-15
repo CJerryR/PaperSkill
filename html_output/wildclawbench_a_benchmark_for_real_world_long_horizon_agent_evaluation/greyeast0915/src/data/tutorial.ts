@@ -520,55 +520,6 @@ export const tutorial: TutorialData = {
           "desc": "仍需扩展任务规模、专业领域、多轮协议与人工评分验证。"
         }
       ]
-    },
-    {
-      "kind": "chapter",
-      "id": "chap-11",
-      "title": "把 WildClawBench 放回研究版图",
-      "badge": "both",
-      "badgeLabel": "相关与后续工作",
-      "bridge": "理解一项基准还要看它与同期评测怎样互补、发布后是否持续更新，以及后来研究拿它测了什么。",
-      "modules": [
-        {
-          "kind": "module",
-          "id": "11.1",
-          "title": "同期与相关工作：不是谁取代谁",
-          "desc": "论文按跨模态、轨迹可审计、原生运行、双语、可复现和验证协议比较既有基准。SWE-/Terminal-Bench、WebArena/OSWorld 各自在可执行检查或网页/操作系统交互上更专门；同期 Claw-Eval 使用脚本化模拟服务，ClawBench 原生但跨模态与复现支持有限。WildClawBench 的贡献是把多项性质组合到长时程跨应用工作流中。",
-          "componentId": "research-landscape"
-        },
-        {
-          "kind": "module",
-          "id": "11.2",
-          "title": "发布后，Agent 有对应改进吗？",
-          "desc": "官方项目页后来把同一 OpenClaw 排行榜扩展到 34 个模型；截至 2026-07-20，新榜首 GPT-5.6 Sol 为 67.2，高于论文时点的 62.2。这可以说明同一百分制标尺上的可观察进展，但不能证明进步由论文直接造成。",
-          "componentId": "research-landscape"
-        },
-        {
-          "kind": "module",
-          "id": "11.3",
-          "title": "后续工作：从刷分到技能、效率与轨迹研究",
-          "desc": "后续研究已把 WildClawBench 用作更广的系统实验：SkillSmith 检验技能与工具共同演化，AgentDecarbonizer 用其长时程负载研究低碳调度；官方生态还发布 Harbor 封装与更多完整轨迹。这里列的是截至 2026-09 可核验的代表性工作，不是穷尽列表。",
-          "componentId": "research-landscape"
-        }
-      ],
-      "insight": "WildClawBench 的后续影响不仅是排行榜更新，也在于它把<b>真实长链轨迹</b>变成可复用的系统研究负载。",
-      "takeaways": [
-        {
-          "icon": "🎯",
-          "title": "组合式贡献",
-          "desc": "把跨模态、审计、原生运行、双语、复现与混合验证放在同一套任务里。"
-        },
-        {
-          "icon": "🔧",
-          "title": "进展要同设定比较",
-          "desc": "新榜首 67.2 是在同一 OpenClaw 百分制排行榜上的更新结果。"
-        },
-        {
-          "icon": "✨",
-          "title": "研究用途扩展",
-          "desc": "技能演化、低碳调度与轨迹分析都可复用这套工作负载。"
-        }
-      ]
     }
   ],
   "bilibili": [
