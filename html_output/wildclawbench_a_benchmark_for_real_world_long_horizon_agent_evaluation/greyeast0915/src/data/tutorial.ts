@@ -430,7 +430,7 @@ export const tutorial: TutorialData = {
       "analogy": {
         "title": "工具能稳住手，也可能打乱节奏",
         "text": "正确的辅助动作能省力；不匹配的技巧会浪费时间，甚至让路线更差。",
-        "figure": "/images/chapter-9-mountaineering-equipment.png"
+        "figure": "./images/chapter-9-mountaineering-equipment.png"
       },
       "modules": [
         {

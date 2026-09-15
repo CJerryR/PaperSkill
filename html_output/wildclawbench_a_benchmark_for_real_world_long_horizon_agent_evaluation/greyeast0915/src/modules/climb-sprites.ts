@@ -1,5 +1,5 @@
-const HIKER_SRC = '/images/climb-hiker-v2.png';
-const MOUNTAIN_SRC = '/images/climb-mountain-v2.png';
+const HIKER_SRC = './images/climb-hiker-v2.png';
+const MOUNTAIN_SRC = './images/climb-mountain-v2.png';
 
 let hikerImage: HTMLImageElement | null = null;
 let mountainImage: HTMLImageElement | null = null;
