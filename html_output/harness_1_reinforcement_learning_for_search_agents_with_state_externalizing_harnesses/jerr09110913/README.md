@@ -81,14 +81,23 @@ node src/modules/model-audit.cjs
 
 ### 延伸视频
 
-仅提供以下公开视频页面的外部链接，不下载、嵌入或重新分发视频文件；提交版使用代码绘制的普通链接卡片，不使用第三方视频封面，也不请求封面接口。下列名称是教程中的推荐标签，原始标题、上传者与许可信息以链接页面为准。
+以下卡片链接到 B 站公开视频页面，不下载或重新分发视频文件。卡片封面通过 B 站图片 CDN 外链加载，图片未打包进本项目；标题、播放量及运行时补充信息来自推荐数据和平台接口。下列名称是教程中的推荐标签，原始标题、上传者与许可信息以链接页面为准。
 
 - [AI Agent 原理背景课程](https://www.bilibili.com/video/BV1VJsuzZE4Z)
 - [上下文工程背景课程](https://www.bilibili.com/video/BV1DjLF6xEXM)
 - [网络搜索、TFIDF/BM25 背景课程](https://www.bilibili.com/video/BV1zp4y1e7iN)
 - [强化学习与 GRPO 背景讲解](https://www.bilibili.com/video/BV1s16UB7Eop)；仅作背景，论文使用 CISPO，不能混同。
 
-视频不适用上述论文的 CC BY 4.0 许可。论文案例中的 Wikipedia URL 作为原文来源引用保留，项目未打包 Wikipedia 页面或其媒体文件。
+视频及其封面不适用上述论文的 CC BY 4.0 许可；目前未核实单独的封面转载授权，也不主张拥有这些素材的版权。保留封面作为指向原视频的推荐入口；外链加载方式不等于取得授权。
+
+封面来源（顺序与以上视频一致）：
+
+- BV1VJsuzZE4Z：https://i0.hdslb.com/bfs/archive/b8c1c1dff121608e127f413d83a44c47917b593b.jpg
+- BV1DjLF6xEXM：https://i2.hdslb.com/bfs/archive/5379f17bbda7c7ba680fe72527554a67d9ead629.jpg
+- BV1zp4y1e7iN：https://i2.hdslb.com/bfs/archive/29cd3136fb0f179a296c515316ee37ab5959a437.jpg
+- BV1s16UB7Eop：https://i1.hdslb.com/bfs/archive/59fdd72a0bd45137462592d27cd28cd97087f5f6.jpg
+
+论文案例中的 Wikipedia URL 作为原文来源引用保留，项目未打包 Wikipedia 页面或其媒体文件。
 
 ### 项目界面与截图
 
